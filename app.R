@@ -33,7 +33,7 @@ server <- function(input, output)
                               file.rename(input$file$datapath,paste(input$file$datapath, ".xlsx", sep=""))
                               ChoiceData <- read_excel(paste(input$file$datapath,".xlsx",sep=""), sheet = "ABB Survey Backup", skip = 3)
                               ChoiceData <- as.data.frame(ChoiceData)
-                              #values$ChoiceData <- ChoiceData[-nrow(ChoiceData),]
+                              values$ChoiceData <- ChoiceData
                               return(values$ChoiceData)
                             }
                       })
