@@ -3,6 +3,7 @@ try(require("mlogit")||install.packages("mlogit"))
 try(require("dplyr")||install.packages("dplyr"))
 try(require("tidyr")||install.packages("tidyr"))
 try(require("readxl")||install.packages("readxl"))
+try(require("jsonlite")||install.packages("jsonlite"))
 
 library("shiny")
 library("mlogit")
