@@ -1,0 +1,11 @@
+try(require("shiny")||install.packages("shiny"))
+try(require("mlogit")||install.packages("mlogit"))
+try(require("dplyr")||install.packages("dplyr"))
+try(require("tidyr")||install.packages("tidyr"))
+try(require("readxl")||install.packages("readxl"))
+
+library("shiny")
+library("mlogit")
+library("dplyr")
+library("tidyr")
+library("readxl")
